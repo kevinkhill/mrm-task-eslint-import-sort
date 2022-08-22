@@ -1,0 +1,37 @@
+{
+  "name": "mrm-task-eslint-import-sort",
+  "version": "1.0.0",
+  "description": "Mrm task for adding eslint plugins for sorting imports/exports",
+  "keywords": [
+    "mrm",
+    "mrm-task",
+    "eslint",
+    "eslint-plugin-import",
+    "eslint-plugin-simple-import-sort"
+  ],
+  "repository": "https://github.com/kevinkhill/mrm-task-eslint-import-sort",
+  "license": "MIT",
+  "author": {
+    "name": "Kevin Hill",
+    "email": "kevinkhill@pm.me"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "mrm-core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "memfs": "^3.4.7",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
